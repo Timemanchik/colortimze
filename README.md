@@ -22,6 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
+require_relative "lib/colortimze"
+include Colortimze
+
 text."color_x"
 
 "color_x":
