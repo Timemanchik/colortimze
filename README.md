@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-require_relative "colortimze"
+require "colortimze"
 
 include Colortimze
 
