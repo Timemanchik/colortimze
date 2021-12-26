@@ -3,9 +3,9 @@
 require_relative "colortimze/version"
 
 module Colortimze
-  class Error < StandardError;
+  class Error < StandardError
   end
- 
+
   def colortize(color_code)
     "\e[#{color_code}m#{self}\e[0m"
   end
@@ -33,7 +33,7 @@ module Colortimze
   def light_blue
     colortize(36)
   end
-  
+
   def black
     colortize(30)
   end

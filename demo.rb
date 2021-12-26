@@ -1,5 +1,5 @@
-require_relative 'lib/colortimze'
+require_relative "lib/colortimze"
 include Colortimze
 
-text = 'Colortimze'
+text = "Colortimze"
 puts text.red
