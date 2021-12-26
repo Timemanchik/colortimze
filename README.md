@@ -22,18 +22,19 @@ Or install it yourself as:
 
 ## Usage
 
-require_relative "lib/colortimze"
+require_relative "colortimze"
+
 include Colortimze
 
 text."color_x"
 
 "color_x":
-red
-green
-yellow
-blue
-pink
-light_blue
+red,
+green,
+yellow,
+blue,
+pink,
+light_blue,
 black
     
 
